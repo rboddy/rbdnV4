@@ -4,7 +4,8 @@
     :global(:root){
         --text: #00031F;
         --primary: #0B5CFF;
-        --secondary: #00EDE7;
+        --secondary: #40B0F3;
+        --ash: #ededed;
     }
     :global(body){
         margin: 0;
