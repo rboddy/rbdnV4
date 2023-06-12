@@ -33,6 +33,7 @@
         border-radius: 5px;
         padding: 10px;
         box-sizing: border-box;
+        overflow: scroll;
     }
     .article-container {
         width: 60%;
