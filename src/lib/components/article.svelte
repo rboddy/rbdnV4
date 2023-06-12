@@ -23,13 +23,24 @@
 </div>
 
 <style>
+    :global(img){
+        width: 100%;
+        height: auto;
+    }
+    :global(pre){
+        background-color: aliceblue;
+        border: 1px solid darkslateblue;
+        border-radius: 5px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
     .article-container {
         width: 60%;
         margin: 50px auto;
     }
     .header {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr 1fr;
         gap: 5vw;
     }
     .header > div {
