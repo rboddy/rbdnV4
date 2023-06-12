@@ -10,6 +10,7 @@
     :global(body){
         margin: 0;
         font-family: 'Roboto', sans-serif;
+        background-color: var(--ash);
     }
     :global(h1, h2, h3){
         font-family: 'Manrope', sans-serif;

@@ -5,37 +5,7 @@
             "excerpt": "Hello World! This is a blog post!",
             "featuredImage": "https://images.unsplash.com/photo-1633355444132-695d5876cd00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
             "slug": "/article"
-        },
-        {
-            "title": "Blog Title",
-            "excerpt": "Hello World! This is a blog post!",
-            "featuredImage": "https://images.unsplash.com/photo-1633355444132-695d5876cd00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
-            "slug": "/article"
-        },
-        {
-            "title": "Blog Title",
-            "excerpt": "Hello World! This is a blog post!",
-            "featuredImage": "https://images.unsplash.com/photo-1633355444132-695d5876cd00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
-            "slug": "/article"
-        },
-        {
-            "title": "Blog Title",
-            "excerpt": "Hello World! This is a blog post!",
-            "featuredImage": "https://images.unsplash.com/photo-1633355444132-695d5876cd00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
-            "slug": "/article"
-        },
-        {
-            "title": "Blog Title",
-            "excerpt": "Hello World! This is a blog post!",
-            "featuredImage": "https://images.unsplash.com/photo-1633355444132-695d5876cd00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
-            "slug": "/article"
-        },
-        {
-            "title": "Blog Title",
-            "excerpt": "Hello World! This is a blog post!",
-            "featuredImage": "https://images.unsplash.com/photo-1633355444132-695d5876cd00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
-            "slug": "/article"
-        },
+        }
     ]
 </script>
 
