@@ -3,7 +3,9 @@
         {
             "title": "Blog Title",
             "excerpt": "Hello World! This is a blog post!",
-            "featuredImage": "https://images.unsplash.com/photo-1633355444132-695d5876cd00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
+            "featuredImage": {
+                "url": "https://images.unsplash.com/photo-1633355444132-695d5876cd00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80",
+            }, 
             "slug": "/article"
         }
     ]
@@ -13,7 +15,7 @@
     <div class="article-grid">
         {#each articles as article}
             <div class="article-card">
-                <img src={article.featuredImage} alt="Article">
+                <img src={article.featuredImage.url} alt="Article">
                 <h2>{article.title}</h2>
                 <div class="excerpt">{@html article.excerpt}</div>
                 <a href={article.slug}>Read More</a>
@@ -66,7 +68,7 @@
         display: block;
         margin-top: 15px;
         width: 50%;
-        color: #fff;
+        /* color: #fff; */
         font-weight: bold;
         text-align: center;
     }

@@ -16,5 +16,8 @@
         font-family: 'Manrope', sans-serif;
         margin: 0;
     }
-
+    :global(h1){
+        font-size: 2.5rem;
+        font-size: clamp(2.5rem, 2rem + 2.5vw, 5rem);
+    }
 </style>

@@ -7,16 +7,15 @@ const client = new GraphQLClient(API_ENDPOINT)
 export async function load(){
     const postsQuery = gql`
     {
-    posts {
-        slug
-        publishedAt
-        title
-        excerpt
-        content {
-        html
+        posts {
+          title
+          excerpt
+          slug
+          featuredImage {
+            url
+          }
         }
-    }
-    }
+      }
     `
 
     let response = await client.request(postsQuery).then((data) => {
