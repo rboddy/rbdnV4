@@ -52,5 +52,8 @@
         .header {
             grid-template-columns: 1fr;
         }
+        .article-container {
+            width: 85%;
+        }
     }
 </style>
