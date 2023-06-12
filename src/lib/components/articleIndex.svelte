@@ -16,9 +16,11 @@
         {#each articles as article}
             <div class="article-card">
                 <img src={article.featuredImage.url} alt="Article">
-                <h2>{article.title}</h2>
-                <div class="excerpt">{@html article.excerpt}</div>
-                <a href={article.slug}>Read More</a>
+                <div>
+                    <h2>{article.title}</h2>
+                    <div class="excerpt">{@html article.excerpt}</div>
+                    <a href={article.slug}>Read More</a>
+                </div>
             </div>
         {/each}
     </div>
@@ -46,6 +48,9 @@
         box-sizing: border-box;
         border-radius: 15px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
     img {
         width: 100%;

@@ -23,6 +23,6 @@ export async function load(){
     })
 
     return {
-        posts: response.posts
+        posts: response.posts.reverse()
     }
 }
