@@ -10,6 +10,7 @@ export async function load({ params }){
     query getPostBySlug($slug: String){
         posts(where: {slug: $slug}) {
           title
+          excerpt
           content {
             html
           }
