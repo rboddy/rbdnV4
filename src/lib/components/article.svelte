@@ -53,6 +53,10 @@
         font-size: 18px;
         color: var(--text);
     }
+    :global(article p){
+        line-height: 180%;
+        letter-spacing: .01em;
+    }
     img {
         width: 100%;
     }
