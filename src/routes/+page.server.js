@@ -10,6 +10,7 @@ export async function load(){
         posts {
           title
           excerpt
+          updatedAt
           slug
           featuredImage {
             url

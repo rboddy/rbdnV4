@@ -11,6 +11,7 @@ export async function load({ params }){
         posts(where: {slug: $slug}) {
           title
           excerpt
+          updatedAt
           content {
             html
           }
