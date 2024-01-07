@@ -7,7 +7,7 @@ const client = new GraphQLClient(API_ENDPOINT)
 export async function load(){
     const postsQuery = gql`
     {
-        posts {
+        posts(first: 50) {
           title
           excerpt
           updatedAt
