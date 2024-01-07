@@ -5,6 +5,7 @@
 <style>
     .banner-container {
         background: url("/trianglify-export.png");
+        background-size: cover;
         width: 100%;
         height: 40vh;
         display: flex;
