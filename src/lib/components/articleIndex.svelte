@@ -15,7 +15,7 @@
     <div class="article-grid">
         {#each articles as article}
             <div class="article-card">
-                <img src={article.featuredImage.url} alt="Article">
+                <img src={article.featuredImage?.url} alt="Article">
                 <div>
                     <h2>{article.title}</h2>
                     <div class="excerpt">{@html article.excerpt}</div>
