@@ -1,9 +1,3 @@
 [build]
   command = "npm run build"
   publish = "build"
-
-[[redirects]]
-  from = "https://mysite.com/my-notes/*"
-  to = "https://publish.obsidian.md/serve?url=mysite.com/my-notes/:splat"
-  status = 200
-  force = true
