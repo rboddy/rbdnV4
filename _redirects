@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "https://ryanboddy.net/garden/*"
-  to = "https://publish.obsidian.md/serve?url=ryanboddy.net/garden/:splat"
-  status = 200
-  force = true
